@@ -1,4 +1,4 @@
-# Telecom Traffic Forecasting and Proactive Capacity Risk Detection Using Machine Learning
+# Telecom Traffic Forecasting and Proactive Capacity Risk Detection System
 
 ## Project Overview
 This project aims to forecast Internet activity using historical telecom traffic data and identify potential high-demand periods through scenario-based capacity-risk indicators.
