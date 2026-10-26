@@ -23,3 +23,9 @@ Initial setup and data inspection.
 
 ## Reproducibility
 Environment dependencies, preprocessing decisions, model configurations, and evaluation procedures will be documented as the project develops.
+
+## Initial Dataset Inspection
+
+The initial inspection used a single-day Telecom Italia text file to assess the data structure before processing the complete dataset. The file is approximately 171 MB and contains 2,459,324 records across eight tab-separated columns without a header row. The records use 10-minute timestamps and include geographical identifiers, country codes, and telecom activity measurements.
+
+Missing values were observed in several activity columns. Their meaning will be investigated before selecting a cleaning or aggregation strategy. The file naming also suggests that this may be the Trentino subset, so the geographical scope will be verified before proceeding with the main Milan-based analysis.
