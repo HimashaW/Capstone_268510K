@@ -53,3 +53,17 @@ Internet traffic activity: number of CDRs generated inside a given Square id dur
 
 Country code: the phone country code of the nation.
 
+
+###Extra
+In this dataset, CDR count is specifically used for the Internet activity column. The SMS and call activities are represented by separate columns.
+
+Column	What it measures
+SMS-in	Received SMS activity
+SMS-out	Sent SMS activity
+Call-in	Received call activity
+Call-out	Issued call activity
+Internet activity	Number of Internet-related CDRs generated
+
+Internet activity as the main forecasting target and potentially use the other four activity columns as additional features.
+
+
