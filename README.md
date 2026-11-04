@@ -54,7 +54,7 @@ Internet traffic activity: number of CDRs generated inside a given Square id dur
 Country code: the phone country code of the nation.
 
 
-###Extra
+### Extra
 In this dataset, CDR count is specifically used for the Internet activity column. The SMS and call activities are represented by separate columns.
 
 Column	What it measures
@@ -66,4 +66,8 @@ Internet activity	Number of Internet-related CDRs generated
 
 Internet activity as the main forecasting target and potentially use the other four activity columns as additional features.
 
+### Country Code Interpretation
 
+The country code column identifies the country associated with telecom activity. A value of `0` represents an unknown country of origin or destination, while values such as `39` and `49` represent Italy and Germany, respectively.
+
+During preprocessing, records with country code `0` will be retained and treated as a separate Unknown category rather than being removed. This ensures that potentially useful telecom activity is not excluded from the analysis.https://www.scribd.com/document/451892578/problem-statement-of-this-dataset#google_vignette
